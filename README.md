@@ -8,11 +8,13 @@
 ![react](https://img.shields.io/badge/react-19.1-d95926?style=flat-square&labelColor=0d0c0b)
 ![react-router](https://img.shields.io/badge/react--router-7.6-9085e9?style=flat-square&labelColor=0d0c0b)
 ![license](https://img.shields.io/badge/license-MIT-1f1d1b?style=flat-square&labelColor=0d0c0b)
+![status](https://img.shields.io/badge/status-work%20in%20progress-9085e9?style=flat-square&labelColor=0d0c0b)
 
 <img src="docs/assets/products.png" alt="ProdManager products page at 1440x900: dark navbar, Add New Product button and a striped table with two sample products and Edit and Delete buttons" width="100%">
 
 </div>
 
+This is a work in progress: the three pages render, but there is no backend yet and the Add, Edit and Delete buttons do nothing (see Limitations).
 I built this as the week 2 class activity of a MERN stack tutorial: the React UI meant to sit on top of an Express and
 MongoDB API. It is the client only. The product list is two sample rows set in a `useEffect`, and the buttons are laid
 out but not wired to anything yet.
